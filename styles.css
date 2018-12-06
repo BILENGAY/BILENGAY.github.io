@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(97, 240, 97);
+}
+
+.logo img{
+    float: left;
+    margin-left: 0px 0px 0px 30px;
+    height: 150px;
+    }
+
+    #video-background {
+        /*  making the video fullscreen  */
+          position: fixed;
+          right: 0; 
+          bottom: 0;
+          min-width: 100%; 
+          min-height: 100%;
+          width: auto; 
+          height: auto;
+          z-index: -100;
+        }
